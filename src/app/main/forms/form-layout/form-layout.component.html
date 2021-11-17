@@ -375,13 +375,15 @@
                 <div class="row">
                   <div class="col-md-6 col-12">
                     <div class="form-group">
-                      <label for="first-name-column">Empresa: </label><input
+                      <label for="first-name-column">Empresa: 
+                      <input
                         type="text"
                         id="empresa-name-column"
                         class="form-control"
-                        placeholder="Empresa"
+                        placeholder=""
                         name="Empresa-column"
                       />
+                    </label>
                     </div>
                   </div>
                   <div class="col-md-6 col-12">
@@ -438,12 +440,229 @@
                         id="cedula-id-column"
                         class="form-control"
                         name="cedula-id-column"
+                        placeholder=""/>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-12">
+                    <div class="form-group">
+                      <label for="company-column">Fecha de Pago: </label>
+                      <input
+                        type="date"
+                        id="fecha-pago"
+                        class="form-control"
+                        name="fecha-pago"
                         placeholder=""
                       />
                     </div>
                   </div>
                   <div class="col-12">
-                    <button type="submit" rippleEffect class="btn btn-primary mr-1">Submit</button>
+                    <button type="submit" rippleEffect class="btn btn-primary mr-1">Mostrar</button>
+                    <button type="reset" rippleEffect class="btn btn-outline-secondary">Reset</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </core-card-snippet>
+        </div>
+      </div>
+    </section>
+
+    <!-- Segunda parte -->
+    <section id="multiple-column-form">
+      <div class="row match-height">
+        <div class="col-12">
+          <core-card-snippet [snippetCode]="_snippetCodeMultiple"> 
+            <h4 class="card-title"></h4>
+            <div class="card-body">
+              <form class="form">
+                <div class="row">
+                  <div class="col-md-6 col-12">
+                    <div class="form-group">
+                      <label for="first-name-column">Aprob
+                      <input
+                        type="checkbox"
+                        id="aprob-column"
+                        class="form-control"
+                        placeholder=""
+                        name="aprob-column"
+                      />
+                      <input
+                        type="checkbox"
+                        id="aprob-column"
+                        class="form-control"
+                        placeholder=""
+                        name="aprob-column"
+                      />
+                      <input
+                        type="checkbox"
+                        id="aprob-column"
+                        class="form-control"
+                        placeholder=""
+                        name="aprob-column"
+                      />
+                      <input
+                        type="checkbox"
+                        id="aprob-column"
+                        class="form-control"
+                        placeholder=""
+                        name="aprob-column"
+                      />
+                      <input
+                        type="checkbox"
+                        id="aprob-column"
+                        class="form-control"
+                        placeholder=""
+                        name="aprob-column"
+                      />
+                    </label>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-12">
+                    <div class="form-group">
+                      <label for="last-name-column">Beneficiario del Pago 
+                      <input
+                        type="text"
+                        id="region--column"
+                        class="form-control"
+                        placeholder=""
+                        name="region-column"
+                      />
+                      <input
+                        type="text"
+                        id="region--column"
+                        class="form-control"
+                        placeholder=""
+                        name="region-column"
+                      />
+                      <input
+                        type="text"
+                        id="region--column"
+                        class="form-control"
+                        placeholder=""
+                        name="region-column"
+                      />
+                      <input
+                        type="text"
+                        id="region--column"
+                        class="form-control"
+                        placeholder=""
+                        name="region-column"
+                      />
+                      <input
+                        type="text"
+                        id="region--column"
+                        class="form-control"
+                        placeholder=""
+                        name="region-column"
+                      />
+                    </label>
+                    </div>
+                  </div>
+                
+                 <div class="col-md-6 col-12">
+                    <div class="form-group">
+                      <label for="city-column">
+                      <input type="text" 
+                      id="cliente-column" 
+                      class="form-control" 
+                      placeholder="" 
+                      name="cliente-column" />
+                      <input type="text" 
+                      id="cliente-column" 
+                      class="form-control" 
+                      placeholder="" 
+                      name="cliente-column" />
+                      <input type="text" 
+                      id="cliente-column" 
+                      class="form-control" 
+                      placeholder="" 
+                      name="cliente-column" />
+                      <input type="text" 
+                      id="cliente-column" 
+                      class="form-control" 
+                      placeholder="" 
+                      name="cliente-column" />
+                      <input type="text" 
+                      id="cliente-column" 
+                      class="form-control" 
+                      placeholder="" 
+                      name="cliente-column" />
+                      </label>
+                    </div>
+                  </div>
+                  
+                  <div class="col-md-6 col-12">
+                    <div class="form-group">
+                      <label for="country-floating">Forma de Pago </label>
+                      <div>
+                      <select name="OS">
+                        <option value="1">Transferencia</option> 
+                        <option value="2">Electronico</option> 
+                     </select>
+                    </div>
+                    <div>
+                     <select name="OS">
+                        <option value="1">Transferencia</option> 
+                        <option value="2">Electronico</option> 
+                     </select>
+                    </div>
+                    <div>
+                     <select name="OS">
+                        <option value="1">Transferencia</option> 
+                        <option value="2">Electronico</option> 
+                      </select>
+                    </div>
+                    <div>
+                      <select name="OS">
+                        <option value="1">Transferencia</option> 
+                        <option value="2">Electronico</option> 
+                      </select>
+                    </div>
+                    <div>
+                      <select name="OS">
+                       <option value="1">Transferencia</option> 
+                        <option value="2">Electronico</option> 
+                      </select>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="col-md-6 col-12">
+                    <div class="form-group">
+                      <label for="company-column">OP Gastos: </label>
+                      <input
+                        type="text"
+                        id="op-gastos"
+                        class="form-control"
+                        name="op-gastos"
+                        placeholder=""
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-12">
+                    <div class="form-group">
+                      <label for="email-id-column">Cedula: </label>
+                      <input
+                        type="cedula"
+                        id="cedula-id-column"
+                        class="form-control"
+                        name="cedula-id-column"
+                        placeholder=""/>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-12">
+                    <div class="form-group">
+                      <label for="company-column">Fecha de Pago: </label>
+                      <input
+                        type="date"
+                        id="fecha-pago"
+                        class="form-control"
+                        name="fecha-pago"
+                        placeholder=""
+                      />
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <button type="submit" rippleEffect class="btn btn-primary mr-1">Mostrar</button>
                     <button type="reset" rippleEffect class="btn btn-outline-secondary">Reset</button>
                   </div>
                 </div>
@@ -456,5 +675,3 @@
     <!-- Basic multiple Column Form section end -->
   </div>
 </div>
-
-<h1>aaaaaaaaaa</h1>
